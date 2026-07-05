@@ -14,9 +14,8 @@ dist/
 # App runtime data (personal paths — do NOT publish)
 config.json
 
-# Generated icons (rebuild with: python assets/make_icon.py)
+# Generated build icon (rebuild with: python assets/make_icon.py)
 assets/icon.ico
-assets/icon.png
 
 # OS / editor
 Thumbs.db

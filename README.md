@@ -1,10 +1,22 @@
-# 🔧 TF2 Swiss Army Knife
+<p align="center">
+  <img src="assets/icon.png" width="120" alt="TF2 Swiss Army Knife" />
+</p>
 
-**Team Fortress 2 için hepsi bir arada masaüstü yardımcı aracı** — sprey
-oluşturucu, tam renkli Conscientious Objector resmi yapıcı ve hitsound/killsound
-kesici. Tek bir modern arayüzde, oyun içi önizlemelerle.
+<h1 align="center">TF2 Swiss Army Knife</h1>
 
-> Windows • Python + CustomTkinter • Kurulum gerektirmeyen tek `.exe` seçeneği
+<p align="center">
+  Team Fortress 2 için hepsi bir arada masaüstü yardımcı aracı —
+  <b>sprey oluşturucu</b>, tam renkli <b>Conscientious Objector</b> resmi yapıcı
+  ve <b>hitsound / killsound</b> kesici. Oyun içi önizlemelerle, tek modern arayüzde.
+</p>
+
+<p align="center">
+  <i>Windows &nbsp;•&nbsp; Python + CustomTkinter &nbsp;•&nbsp; kurulum gerektirmeyen tek <code>.exe</code></i>
+</p>
+
+<p align="center">
+  <img src="assets/screenshot.png" width="760" alt="Uygulama ekran görüntüsü" />
+</p>
 
 ---
 
