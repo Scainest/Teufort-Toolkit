@@ -1,5 +1,5 @@
 @echo off
-REM Build TF2 Swiss Army Knife into a single-file Windows .exe.
+REM Build Teufort Toolkit into a single-file Windows .exe.
 REM Requires: pip install -r requirements.txt pyinstaller
 
 echo [1/2] Ikon uretiliyor...

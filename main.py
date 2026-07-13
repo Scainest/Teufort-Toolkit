@@ -1,4 +1,4 @@
-"""TF2 Swiss Army Knife — entry point.
+"""Teufort Toolkit — entry point.
 
     python main.py
 """
@@ -15,7 +15,7 @@ def main():
         traceback.print_exc()
         try:
             import tkinter.messagebox as mb
-            mb.showerror("TF2 Swiss Army Knife — Hata",
+            mb.showerror("Teufort Toolkit — Hata",
                          "Uygulama başlatılamadı:\n\n"
                          + traceback.format_exc(limit=5))
         except Exception:

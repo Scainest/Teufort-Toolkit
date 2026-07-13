@@ -2,7 +2,7 @@
 independent export path.
 
 Source runs keep config.json next to the code; frozen (PyInstaller) builds
-use %APPDATA%\\TF2SwissArmyKnife instead — a onefile exe unpacks itself to a
+use %APPDATA%\\TeufortToolkit instead — a onefile exe unpacks itself to a
 throwaway temp dir, so "next to __file__" would be wiped on every launch."""
 
 from __future__ import annotations
@@ -17,7 +17,7 @@ def _config_dir() -> str:
     if getattr(sys, "frozen", False):
         base = os.path.join(
             os.environ.get("APPDATA", os.path.expanduser("~")),
-            "TF2SwissArmyKnife")
+            "TeufortToolkit")
         os.makedirs(base, exist_ok=True)
         return base
     return os.path.dirname(os.path.abspath(__file__))
